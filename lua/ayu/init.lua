@@ -195,7 +195,7 @@ local function set_groups()
     NoiceLspProgressClient = { fg = colors.special },
 
     -- NvimTree.
-    NvimTreeGitDirty = { fg = colors.accent },
+    NvimTreeGitDirty = { fg = colors.string },
     NvimTreeGitStaged = { fg = colors.vcs_modified },
     NvimTreeGitMerge = { fg = colors.error },
     NvimTreeGitNew = { fg = colors.vcs_added },
